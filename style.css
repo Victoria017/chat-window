@@ -1,0 +1,200 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url(images/bg1.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #328fe7;
+    width: 1000px;
+    height: 107px;
+    align-items: center;
+    display: flex;
+}
+
+.logo-chat {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    background-size: 82%;
+    height: 100px;
+    background-position: center;
+}
+.logo-title {
+ color: white;
+ font-weight: bold;
+ font-size: 40px;   
+}
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+    width: 600px;
+}
+.menu-chat {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.content {
+    background-color: white;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100% - 107px - 50px);
+
+}
+
+.left-menu {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-chat-anton {
+    font-style: italic;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 70px;
+}
+.avatar-irina {
+    background-image: url(images/user01.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+}
+.search-form {
+    width: 200px;
+    height: 25px;
+    background-color: #edf0f0;
+    border: none;
+}
+.submit-form {
+    background-image: url(images/find02.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+.right-menu {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+ .container {
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+} 
+
+.avatar-anton {
+    background-image: url(images/user02.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+}
+.name-anton {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.text-chat-anton {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.time-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: auto;
+
+}
+.text-form {
+    width: 100%;
+    border: 1px solid gray;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.submit-find {
+    background-image: url(images/send1.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    border: none;
+}
+
+.container-menu-top {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: calc(100% - 90px - 10px);
+}
+.send-form {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    padding: 8px;
+}
+
+.send-form-size {
+    display: flex;
+}
+
+.container-menu-top::-webkit-scrollbar {
+    width: 6px;
+ }
+  
+.container-menu-top::-webkit-scrollbar-track {
+
+    background-color: #f3f3f3;
+ }
+  
+.container-menu-top::-webkit-scrollbar-thumb {
+    background-color: #00aaee;
+ }
+
+.list-name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.name-chat {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 137px;
+}
